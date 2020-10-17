@@ -1,0 +1,24 @@
+{
+  "name": "scss-exer-2-muratcanoncu",
+  "version": "1.0.0",
+  "description": "> Let's use Bootstrap and SCSS to create a restaurant page! > This exercise focuses mainly importing files, variables, @mixin, and @extend topics. > font family for heading: https://fonts.google.com/specimen/Love+Ya+Like+A+Sister",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss custom.scss custom.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW41/scss-exer-2-muratcanoncu.git"
+  },
+  "keywords": [],
+  "author": "Murat Can Öncü",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW41/scss-exer-2-muratcanoncu/issues"
+  },
+  "homepage": "https://github.com/FbW41/scss-exer-2-muratcanoncu#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
